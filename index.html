@@ -9,15 +9,28 @@
                     <div class="col-md-4">
                         <img src="gambar/profile.jpg" class="img-responsive" alt="">
                         <div class="container font-sm">
-                            <div class="col-md-12">
+                            <h2 class="color-primary">Kontak</h2>
+                            <div class="col-md-6">
                                 <img src="gambar/phone.png" class="img-icon" alt="">
+                                <span class="margin-5">082331759738</span>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="gambar/mail.png" class="img-icon" alt="">
                                 <span class="margin-5">ludfyr@gmail.com</span>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
+                                <img src="gambar/instagram.png" class="img-icon" alt="">
+                                <span class="margin-5">@ludfyrahman</span>
+                            </div>
+                            <div class="col-md-6">
+                                <img src="gambar/twitter.png" class="img-icon" alt="">
+                                <span class="margin-5">@ludfyrahman</span>
+                            </div>
+                            <div class="col-md-6">
                                 <img src="gambar/website.png" class="img-icon" alt="">
                                 <a target="_blank" href="http://www.ludfyrahman.tk/"><span class="margin-5">ludfyrahman.tk</span></a>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <img src="gambar/LinkedIn.png" class="img-icon" alt="">
                                 <a target="_blank" href="https://www.linkedin.com/in/ludfy-rahman-b28201127"><span class="margin-5">ludfyrahman</span></a>
                             </div>
@@ -29,12 +42,17 @@
                     </div>
                     <div class="col-md-8">
                         <h1 class="color-primary">Mochamad Ludfi Rahman</h1>
-                        <h3 class="upper">Web Developer <span class="color-primary">dan</span> web designer</h3>
+                        <h3 class="upper">Teknik <span class="color-primary">Informatika</span> Golongan B</h3>
                         <p class="paragraph">Nama saya Mochamad Ludfi Rahman saya biasa dipanggil dengan nama ludfi, saya berasal dari kabupaten bondowoso. saya sekarang kuliah di politeknik negeri jember, tujuan saya kuliah adalah untuk memperdalam keilmuan yang saya miliki dan ingin memperbanyak teman. Saya bercita cita memiliki perusahaan atau usaha sendiri sehingga saya bisa memberi pekerjaan kepada orang lain.</p>
                         <a href="http://polije.ac.id" target="_blank"><button class="btn">Profil Kampus</button></a>
                         <h2 class="color-primary">Pendidikan</h2>
                         <div class="container">
                             <ol>
+                                <li>
+                                    Politeknik Negeri Jember
+                                    <br>
+                                    <p class="paragraph">Jl. Mastrip, Lingkungan Panji, Tegalgede, Kec. Sumbersari, Kabupaten Jember, Jawa Timur 68124</p>
+                                </li>
                                 <li>
                                     SMKN 1 Bondowoso
                                     <br>
@@ -76,14 +94,14 @@
                         </div>
                         <h2 class="color-primary">Kemampuan</h2>
                         <div class="col-md-12 center">
-                            <div class="col-md-4">
+                            <div class="col-md-4 shadow">
                                 PHP
                                 <br>
                                 90%
                                 <div class="pg pg-90"></div>
                             </div>
                             <div class="col-md-4">
-                                CSS
+                                Design
                                 <br>
                                 85%
                                 <div class="pg pg-85"></div>
@@ -176,7 +194,7 @@
             }
             /* pangaturan gambar */
             .img-icon{
-                width: 6%;
+                width: 8%;
             }
             .margin-5{
                 margin: 5px;
@@ -197,6 +215,8 @@
             }
             h1, h2, h3, h4, h5, h6{
                 font-weight: normal;
+                margin-bottom: 12px;
+                margin-top: 12px;
             }
             .color-primary{
                 color:#4ac3be;
@@ -236,17 +256,22 @@
             .container{
                 padding: 14px;
             }
-            .col-md-1{
-                width:8.3333%;
-            }
-            .col-md-4{
-                width: 33.333%;
-            }
-            .col-md-8{
-                width: 66.666%;
-            }
-            .col-md-12{
-                width:100%;
+            @media only screen and (min-width: 768px) {
+                .col-md-1{
+                    width:8.3333%;
+                }
+                .col-md-4{
+                    width: 33.333%;
+                }
+                .col-md-6{
+                    width:50%;
+                }
+                .col-md-8{
+                    width: 66.666%;
+                }
+                .col-md-12{
+                    width:100%;
+                }
             }
         </style>
     </body>
